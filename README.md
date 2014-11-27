@@ -11,6 +11,7 @@ Clearly you begin with the simple odds of one in three, however the knowing  hos
 
 If you still are uncovinced or just as a fun exercise download my CadillacProgram.cpp examine that it follows the rules and run a simulation of  it for yourself.  For those without a C++ compiler here's a peek at the results.
 
+```
 [chris@durso monty-hall-problem-empirical-proof]$ g++ -O3 -o CadillacProblem  CadillacProblem.cpp 
 [chris@durso monty-hall-problem-empirical-proof]$ time ./CadillacProblem 1073741824
 of                                                       1073741824 trials
@@ -23,7 +24,7 @@ Strategy "Switch door"       wins :  715832456   (66.667093%)
 real    1m17.912s
 user    1m17.892s
 sys     0m0.002s
-
+```
 
 references:
 http://durso.org/cadillac/
